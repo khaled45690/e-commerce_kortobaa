@@ -17,7 +17,7 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
                 Icon(
-                  Icons.menu_rounded,
+                  Icons.menu,
                   color: Colors.grey,
                 ),
                 Icon(

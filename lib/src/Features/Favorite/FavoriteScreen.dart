@@ -18,7 +18,8 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
     List itemslist = mapToList(context.watch<FavoriteCubit>().state);
     return SingleChildScrollView(
       child: Center(
-        child: SizedBox(
+        child: Container(
+          margin: const EdgeInsets.only(bottom:80),
           width: context.width() > 500 ? 460 : context.width() - 60,
           height: context.height(),
           child: ListView.builder(
