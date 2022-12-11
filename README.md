@@ -1,16 +1,26 @@
-# ecommerce_kortobaa
+# Few important notes
 
-A new Flutter project.
+## Main screens routes:-
 
-## Getting Started
+MainScreen which holds four screens that toggle when selected
+./ecommerce_kortobaa/lib/src/Features/MainScreen
 
-This project is a starting point for a Flutter application.
+it has three Screens in the same folder
+which are
+- Home Screen:- /ecommerce_kortobaa/lib/src/Features/MainScreen/HomeScreen
+- Category Screen :- /ecommerce_kortobaa/lib/src/Features/MainScreen/CategoryScreen
+- ProductDetails Screen :- /ecommerce_kortobaa/lib/src/Features/MainScreen/ProductDetails
 
-A few resources to get you started if this is your first Flutter project:
+then the others are in the feature folder itself
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## the project is designed as:-
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Main Statefull widget which is splitted in small designed stateless widget in the widget folder
+- Controller folder to control the statefull widget
+
+
+
+## most of the UI is self written especially the ticket widget
+
+
+
